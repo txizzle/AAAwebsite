@@ -127,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #2d7eed;
     border-radius: 0;
 }
 
@@ -164,7 +164,7 @@ fieldset[disabled] .btn-xl:active,
 fieldset[disabled] .btn-xl.active {
     border-color: #2d7eed;
     background-color: #2d7eed;
-    color: white;
+    color: #2d7eed;
 }
 
 .btn-xl .badge {
@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #143665;
+    background-color: #2d7eed;
 }
 
 @media(min-width:768px) {
@@ -279,6 +279,11 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.opaque-layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 header .intro-text .intro-lead-in {
