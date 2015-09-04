@@ -69,7 +69,7 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #2d7eed;
+    border-color: #fff;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -82,9 +82,8 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #2d7eed;
-    color: #fff;
-    background-color: #2d7eed;
+    border-color: #fff;
+    background-color: #fff;
     border-radius: 0;
 }
 
@@ -122,12 +121,12 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #2d7eed;
+    border-color: #fff;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #2d7eed;
+    color: #fff;
     border-radius: 0;
 }
 
@@ -136,9 +135,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #2d7eed;
-    background-color: #2d7eed;
-    color: #fff;
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .btn-xl:active,
