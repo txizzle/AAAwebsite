@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html, 
+body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -264,10 +270,13 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
+    
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: url(../img/header-bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -275,16 +284,22 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+header .intro {
+    align-self: center;
+}
 .opaque-layer {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    height: 100%;
 }
 
-header .intro-text .intro-lead-in {
+header .intro-text .intro .intro-lead-in {
+    display: absolute;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -292,7 +307,7 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -307,7 +322,7 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
+    header .intro-text .intro .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
@@ -315,7 +330,8 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro .intro-heading {
+        align-self: center;
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -326,6 +342,8 @@ header .intro-text .intro-heading {
 }
 
 section {
+    width: 100%;
+    height: 100%;
     padding: 100px 0;
 }
 
@@ -333,6 +351,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: white;
 }
 
 section h3.section-subheading {
@@ -656,68 +675,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#apply {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#apply .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#apply .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#apply .form-group input,
+section#apply .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#apply .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#apply .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#apply .form-control:focus {
     border-color: #2d7eed;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#apply::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#apply:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#apply::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#apply:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#apply .text-danger {
     color: #e74c3c;
 }
 
@@ -870,4 +889,22 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #2d7eed;
+}
+
+.container {
+    width: 100%;
+}
+
+section#about {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+section#about .container {
+    align-self: center;
+}
+
+section#portfolio {
+    background-color: #3d4d5a;
 }
