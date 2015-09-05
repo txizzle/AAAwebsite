@@ -344,7 +344,9 @@ header .intro-text .intro .intro-heading {
 section {
     width: 100%;
     height: 100%;
-    padding: 100px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
 }
 
 section h2.section-heading {
@@ -361,12 +363,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -893,6 +889,12 @@ body {
 
 .container {
     width: 100%;
+    height: 100%;
+}
+
+.section-container {
+    width: 100%;
+    align-self: center;
 }
 
 section#about {
