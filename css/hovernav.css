@@ -37,6 +37,5 @@ The Bootstrap CSS is unchanged.
 .navbar-nav > li > .dropdown-menu { background-color: #363636; }
 
 .dropdown-menu {
-  width: 100%; 
-  min-width: 0px
+  min-width: 0px;
 }
