@@ -40,10 +40,16 @@ The Bootstrap CSS is unchanged.
   overflow: visible;
 }
 
-.navbar-nav{
-  overflow: visible;
+.navbar-default .nav li a:active,
+.navbar-default .nav li a:visited {
+    color: #fff;
 }
 
+@media (min-width: 768px) {
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: none;
+}
 .navbar-nav > li > .dropdown-menu { 
   background-color: #363636; 
   position: relative;
@@ -53,17 +59,16 @@ The Bootstrap CSS is unchanged.
 }
 
 .clear-navbar {
-    height: 100px;
-}
-
-.page-filler {
-    background-color: black;
+    height: 70px;
 }
 
 @media (min-width: 768px) {
     nav.navbar { 
         max-height: 70px;
         overflow: visible;
+    }
+    nav.navbar >li:a { 
+        color:green;
     }
 }
 
