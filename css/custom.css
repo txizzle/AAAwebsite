@@ -31,6 +31,7 @@ The Bootstrap CSS is unchanged.
   }
   .navbar-nav .hovernav:hover > .dropdown-menu {
     display: block;
+    animation: 0.3s;
   }
 }
 
@@ -46,6 +47,9 @@ The Bootstrap CSS is unchanged.
   text-align: center;
 }
 
+.clear-navbar {
+    height: 70px;
+}
 /*.dropdown-menu {
 
 }*/
