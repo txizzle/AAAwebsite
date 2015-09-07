@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/home.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/hovernav.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -46,29 +49,40 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html#page-top">AAA</a>
+                <a class="navbar-brand page-scroll" href="#page-top">AAA</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="index#page-top"></a>
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">people<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">cabinet</a></li>
+                        <li><a href="#">families</a></li>
+                        <li><a href="#">alumni</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">events<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="events.html">past events</a></li>
+                        <li><a href="#">calendar</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">about<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">structure</a></li>
+                        <li><a href="#">committees</a></li>
+                        <li><a href="#">media</a></li>
+                      </ul>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#values">Values</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="events.html">Events</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html#contact">Contact</a>
+                        <a class="page-scroll" href="#apply">Apply!</a>
                     </li>
                 </ul>
             </div>
@@ -351,6 +365,10 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!-- hovernav -->
+    <script src="js/hovernav.js"></script>
+
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
