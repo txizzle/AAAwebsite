@@ -34,8 +34,12 @@ The Bootstrap CSS is unchanged.
   }
 }
 
-.navbar-nav > li > .dropdown-menu { background-color: #363636; }
-
-.dropdown-menu {
-  min-width: 0px;
+.navbar-nav > li > .dropdown-menu { 
+  background-color: #363636; 
+  position: relative;
+  min-width: 100%;
 }
+
+/*.dropdown-menu {
+
+}*/

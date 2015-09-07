@@ -40,4 +40,6 @@ $(document).ready(function() {
       $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
   });
 
+  $('.navbar .dropdown').width(160);
+
 });
