@@ -37,7 +37,11 @@ The Bootstrap CSS is unchanged.
 
 .navbar-nav > li {
   text-align: center;
-  overflow:visible;
+  overflow: visible;
+}
+
+.navbar-nav{
+  overflow: visible;
 }
 
 .navbar-nav > li > .dropdown-menu { 
@@ -45,11 +49,20 @@ The Bootstrap CSS is unchanged.
   position: relative;
   min-width: 100%;
   text-align: center;
+  z-index: 2147483647;
 }
 
 .clear-navbar {
     height: 70px;
 }
+
+@media (min-width: 768px) {
+    nav.navbar { 
+        max-height: 70px;
+        overflow: visible;
+    }
+}
+
 /*.dropdown-menu {
 
 }*/
