@@ -24,7 +24,7 @@ $(document).ready(function() {
       // Restore "clickable parent links" in navbar
       $('.hovernav a').click(function () {
         window.location = this.href;
-      });
+      }); 
     } else {
       $('ul.navbar-nav > li').removeClass('hovernav');
     }
@@ -35,6 +35,7 @@ $(document).ready(function() {
   });
 
   $('.navbar .dropdown').hover(function() {
+      $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
       $(this).find('.dropdown-menu').first().stop(true, true).slideToggle(400);
   }, function() {
       $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
