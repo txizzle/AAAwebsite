@@ -34,10 +34,15 @@ The Bootstrap CSS is unchanged.
   }
 }
 
+.navbar-nav > li {
+  text-align: center;
+}
+
 .navbar-nav > li > .dropdown-menu { 
   background-color: #363636; 
   position: relative;
   min-width: 100%;
+  text-align: center;
 }
 
 /*.dropdown-menu {
