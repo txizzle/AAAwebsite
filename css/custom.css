@@ -48,7 +48,11 @@ The Bootstrap CSS is unchanged.
 }
 
 .clear-navbar {
-    height: 70px;
+    height: 100px;
+}
+
+.page-filler {
+    background-color: black;
 }
 /*.dropdown-menu {
 
