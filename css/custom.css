@@ -72,6 +72,10 @@ The Bootstrap CSS is unchanged.
     }
 }
 
+.container {
+  overflow: auto;
+}
+
 /*.dropdown-menu {
 
 }*/
