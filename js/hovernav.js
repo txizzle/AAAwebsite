@@ -43,8 +43,4 @@ $(document).ready(function() {
 
   $('.navbar .dropdown').width(160);
 
-  $('a[href="#"]').click(function(){
-    return false;
-  });
-
 });
