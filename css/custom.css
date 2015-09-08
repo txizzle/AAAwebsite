@@ -96,7 +96,32 @@ The Bootstrap CSS is unchanged.
     height: -webkit-calc(43.75% - 50px);
     height: calc(43.75% - 50px);
 }
- 
-/*.dropdown-menu {
-
-}*/
+    
+.bg-light-color {
+  background-color: #F1F1F1;
+}
+    
+.img-splash {
+    width: 50%;
+    margin: 0 auto;
+}
+    
+.officers {
+    padding-top: 10px;
+    background-color: black;
+    width: 100%;
+}
+    
+.chairs {
+    padding-top: 10px;
+    background-color: #686f69;
+    width: 100%;
+}
+.dark-txt{
+    color: #0f0f0f;
+}
+    
+.light-txt {
+    color: #bfbfbf;
+}
+    
