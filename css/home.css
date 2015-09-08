@@ -358,13 +358,14 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 40px;
     color: white;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -918,4 +919,8 @@ section#about .container {
 
 section#portfolio {
     background-color: #3d4d5a;
+}
+
+section#team {
+    background-color: #F1F1F1;
 }
