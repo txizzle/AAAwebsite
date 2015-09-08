@@ -58,6 +58,10 @@ The Bootstrap CSS is unchanged.
   z-index: 2147483647;
 }
 
+.navbar-nav > li > .dropdown-menu > li > a:hover { 
+  color: #2d7eed;
+}
+
 .clear-navbar {
     height: 50px;
 }
