@@ -72,10 +72,23 @@ The Bootstrap CSS is unchanged.
     }
 }
 
+.cn {
+    display: table;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .page-size {
     height: -moz-calc(100% - 50px);
     height: -webkit-calc(100% - 50px);
     height: calc(100% - 50px);
+}
+
+.bg-aaa-color {
+  background-color: #3d4d5a;
 }
 /*.dropdown-menu {
 
