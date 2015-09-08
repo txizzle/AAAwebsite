@@ -140,3 +140,7 @@ title {
 ul {
     list-style-type: none;
 }
+    
+.fit-navbar {
+    height: 50px;
+}
