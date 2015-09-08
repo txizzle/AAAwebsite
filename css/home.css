@@ -926,3 +926,11 @@ section#portfolio {
 section#team {
     background-color: #F1F1F1;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
+#structure-bracket {
+    width: 100%;
+}
