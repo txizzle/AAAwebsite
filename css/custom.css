@@ -72,10 +72,11 @@ The Bootstrap CSS is unchanged.
     }
 }
 
-.container {
-  overflow: auto;
+.page-size {
+    height: -moz-calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+    height: calc(100% - 50px);
 }
-
 /*.dropdown-menu {
 
 }*/
