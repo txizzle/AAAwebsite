@@ -132,3 +132,11 @@ The Bootstrap CSS is unchanged.
 title {
     padding-left: 10px;
 }
+
+.center {
+    margin: 0 auto;
+}
+    
+ul {
+    list-style-type: none;
+}
