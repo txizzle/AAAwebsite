@@ -321,6 +321,8 @@ header .intro-text .intro .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media(min-width:768px) {

@@ -129,3 +129,6 @@ The Bootstrap CSS is unchanged.
     color: #bfbfbf;
 }
     
+title {
+    padding-left: 10px;
+}
